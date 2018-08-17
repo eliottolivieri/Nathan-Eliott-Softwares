@@ -1,0 +1,19 @@
+#particles-js{
+    background:whitesmoke;
+    height: 100%;
+
+}
+
+#myFont{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 70px;
+    color:rgb(41, 248, 255);
+    opacity: .75;
+}
+
+#myFont2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color:lightgray;
+}
+
