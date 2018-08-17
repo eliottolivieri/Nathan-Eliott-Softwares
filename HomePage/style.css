@@ -7,7 +7,7 @@
 #myFont{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 70px;
-    color:rgb(41, 248, 255);
+    color:rgb(35, 231, 238);
     opacity: .75;
 }
 
@@ -17,3 +17,7 @@
     color:lightgray;
 }
 
+#hoverMe:hover{
+    background: rgb(35, 231, 238);
+
+}

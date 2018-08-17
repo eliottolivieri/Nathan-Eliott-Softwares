@@ -35,10 +35,10 @@
         },
             "modes":{
                 "push":{
-                    "particles_nb": 8
+                    "particles_nb": 20
                 },
                 "grab":{
-                    "distance":250
+                    "distance":210
                 }
 
             }

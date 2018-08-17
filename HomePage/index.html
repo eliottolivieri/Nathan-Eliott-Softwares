@@ -4,38 +4,39 @@
 
         <title>Nathan-Eliott-Softwares</title>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
     </head>
 
-    <body>
+    <body style="width:100%;text-align: center;">
         <div id="particles-js">
             
          <!--   <h1 id="myFont" style="position:absolute;top:35%;" >Nathan-Eliott Softwares </h1>
             <h2 id="myFont2" style="position:absolute;top:50%;left:45%;" >Find out what we do</h2>
          -->
-            <div class="jumbotron" style="background:rgb(36, 36, 36);max-width:900px;position: absolute;top:200px">
+            <div class="jumbotron" id="hoverMe" style="background:rgb(36, 36, 36);max-width:900px;position: absolute;top:200px">
                     <h1 class="display-4"id="myFont">Nathan-Eliott Softwares</h1>                    
-                    <hr class="my-4" style="border-color:gray;">
-                    
-                    <a class="btn btn-outline-secondary btn-lg float-right" href="#" role="button">Explore</a>
-                    <p class="float-right"  id="myFont2">Between you and your nonstop system.</p>
+                    <hr class="my-4" style="border-color:gray;">      
+                    <a class="btn btn-outline-secondary btn-lg float-right" href="home.html" role="button">Explore</a>
+                    <p class="float-right" style="padding-right:20px;" id="myFont2">Between you and your nonstop system.</p>
             </div>
+        <!--    <div class="container" style="overflow:hidden; position:absolute ; top:50px;right:0px;">
+                <img class="img-responsive" style="height:4200px;width:1200px;position:relative;top:0px;right:-500px;"src="https://freepngimg.com/download/eiffel_tower/7-2-eiffel-tower-free-png-image.png">
+        -->    </div>
 
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+       
 
-        <script>
-        particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('callback - particles.js config loaded');
-        });
+        
+
         </script>
         
     </body>
-
-
-
+    <script src="app.js"></script>
+    
 </html>
